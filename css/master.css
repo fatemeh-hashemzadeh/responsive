@@ -1,0 +1,19 @@
+@import "tailwindcss";
+
+
+@layer components {
+
+    .boxCard {
+        @apply h-[100px] rounded-2xl *:w-full p-4 *:flex
+    }
+
+    .btnInHeader {
+        @apply w-[200px] h-[60px] duration-500 bg-green-200 rounded-xs relative *:absolute *:top-4.5 *:duration-700 flex items-center
+    }
+
+    .btnInDrop {
+        @apply w-[150px] h-[20px] z-20 border-b-1 hover:text-yellow-600 duration-500 text-black p-[20px] flex flex-wrap items-center 
+    }
+
+
+}
